@@ -364,6 +364,21 @@
   position: relative;
 }
 
+.footer__column_logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0 0 8px;
+}
+
+.footer__logo {
+  height: 80px;
+  width: 58px;
+  margin: 0;
+  padding: 0;
+}
+
 .footer__column_content_hours {
   box-sizing: border-box;
   margin: 0;
@@ -380,14 +395,6 @@
   position: absolute;
   right: 0;
   top: 0;
-}
-
-.footer__logo {
-  height: 80px;
-  width: 58px;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 .footer__column-heading {
@@ -407,17 +414,22 @@
 
 .footer__list-item {
   padding: 0;
-  margin: 0;
 }
 
 .footer__list-item_semana {
   margin: 0 0 16px 0;
-  padding: 0;
 }
 
 .footer__list-item_finais-semana {
   margin: 0;
-  padding: 0;
+}
+
+.footer__list-item_facebook {
+  margin-bottom: 16px;
+}
+
+.footer__list-item_instagram {
+  margin-bottom: 0;
 }
 
 .footer__column-link {
@@ -435,14 +447,6 @@
   width: 16px;
   height: 16px;
   margin-right: 10px;
-}
-
-.footer__list-item_facebook {
-  margin-bottom: 16px;
-}
-
-.footer__list-item_instagram {
-  margin-bottom: 0;
 }
 
 .footer__social-icon_facebook {
