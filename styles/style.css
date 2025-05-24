@@ -297,3 +297,166 @@
   font-size: 14px;
   margin: 0;
 }
+
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+  display: block;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.step {
+  flex-basis: 220px;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  color: #ffffff;
+  padding: 60px 80px;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.footer__columns {
+  display: flex;
+  height: auto;
+  width: auto;
+  margin: 0;
+  justify-content: center;
+  position: relative;
+}
+
+.footer__column_content_hours {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 0;
+  left: 248px;
+}
+
+.footer__column_content_social {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.footer__logo {
+  height: 80px;
+  width: 58px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.footer__column-heading {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 20px 0 0;
+  margin: 0;
+  font-size: 15px;
+}
+
+.footer__list-item {
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item_semana {
+  margin: 0 0 16px 0;
+  padding: 0;
+}
+
+.footer__list-item_finais-semana {
+  margin: 0;
+  padding: 0;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__social-icon {
+  display: inline-block;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.footer__list-item_facebook {
+  margin-bottom: 16px;
+}
+
+.footer__list-item_instagram {
+  margin-bottom: 0;
+}
+
+.footer__social-icon_facebook {
+  background-image: url("../images/facebook_white.svg"); /* Substituir pelo caminho para a imagem do Facebook */
+  margin-bottom: 0px;
+}
+
+.footer__social-icon_instagram {
+  background-image: url("../images/instagram_white.svg"); /* Substituir pelo caminho para a imagem do Instagram */
+  margin-bottom: 0px;
+}
+
+.footer__copyright {
+  color: white;
+  padding-top: 100px;
+  margin: auto 0 0;
+}
