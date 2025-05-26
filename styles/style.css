@@ -370,11 +370,10 @@
 
 .footer__column_content_hours {
   margin-left: auto;
-  margin-right: 106px;
 }
 
 .footer__column_content_social {
-  margin: 0;
+  margin-left: 80px;
   padding: 0;
 }
 
