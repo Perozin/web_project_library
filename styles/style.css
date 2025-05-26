@@ -415,7 +415,7 @@
   list-style-type: none;
   margin: 20px 0 0;
   padding: 0;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .footer__list-item {
@@ -448,19 +448,12 @@
 }
 
 .footer__social-icon {
+  box-sizing: border-box;
   display: inline-block;
   align-items: center;
+  margin-right: 10px;
   width: 16px;
   height: 16px;
-  margin-right: 10px;
-}
-
-.footer__social-icon_facebook {
-  background-image: url("../images/facebook_white.svg");
-}
-
-.footer__social-icon_instagram {
-  background-image: url("../images/instagram_white.svg");
 }
 
 .footer__copyright {
