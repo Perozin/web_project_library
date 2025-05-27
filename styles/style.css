@@ -41,6 +41,12 @@
   color: #000000;
   text-decoration: none;
   font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+  text-decoration: underline;
 }
 
 .header__content {
@@ -224,6 +230,12 @@
 .events__more {
   color: #2f80ed;
   text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.events__more:hover {
+  color: #bdbdbd;
+  text-decoration: underline;
 }
 
 .events__cover {
@@ -420,6 +432,12 @@
   display: flex;
   align-items: center;
   column-gap: 10px;
+  transition: color 0.3s ease;
+}
+
+.footer__column-link:hover {
+  color: #2f80ed;
+  text-decoration: underline;
 }
 
 .footer__social-icon {
@@ -432,4 +450,8 @@
   margin-top: 100px;
   margin-bottom: 0;
   width: 173px;
+}
+
+* {
+  scroll-behavior: smooth;
 }
