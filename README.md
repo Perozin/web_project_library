@@ -9,6 +9,6 @@ A página da biblioteca Triple Peaks é o terceiro projeto no programa de desenv
 - Flexbox
 - Posicionamento
 
-## Página do projeto
+## Página
 
 https://perozin.github.io/web_project_library/
